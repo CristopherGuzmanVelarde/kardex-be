@@ -1,0 +1,20 @@
+# Configuración de la aplicación
+spring:
+  application:
+    name: kardex
+  data:
+    mongodb:
+      uri: mongodb+srv://cristopherguzman:orTIWL10NmFAo3S5@cluster0.o8sc9.mongodb.net/kardex?retryWrites=true&w=majority&appName=Cluster0
+      database: kardex
+
+# Configuración del servidor
+server:
+  port: 8080
+
+# Configuración de Swagger/OpenAPI
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
