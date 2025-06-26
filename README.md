@@ -1,19 +1,17 @@
-# Sistema de Kardex
+# Sistema de Kardex 📦📊
 
 Sistema de gestión de inventario (Kardex) desarrollado con Spring Boot Reactive y MongoDB.
 
-## Descripción
+## Descripción 📝
 
 Este sistema permite gestionar el inventario de productos, proveedores y usuarios en una empresa. Utiliza tecnologías reactivas para proporcionar una alta escalabilidad y rendimiento.
 
-## Tecnologías Utilizadas
+## Tecnologías Utilizadas 💻
 
 - **Spring Boot 3.4.5**: Framework para el desarrollo de aplicaciones Java
 - **Spring WebFlux**: Framework reactivo para aplicaciones web
 - **Spring Data MongoDB Reactive**: Para la persistencia de datos reactiva con MongoDB
 - **Spring Security**: Para la autenticación y autorización
-- **JWT (JSON Web Token)**: Para la gestión de tokens de autenticación
-- **Swagger/OpenAPI**: Para la documentación de la API
 - **Lombok**: Para reducir el código boilerplate
 
 ## Estructura del Proyecto
@@ -30,12 +28,6 @@ src/main/java/pe/edu/vallegrande/kardex/
 ├── dto/                # Objetos de transferencia de datos
 ├── model/              # Entidades del dominio
 ├── repository/         # Repositorios reactivos para MongoDB
-├── security/           # Configuración de seguridad y JWT
-│   ├── CustomReactiveAuthenticationManager.java
-│   ├── CustomUserDetailsService.java
-│   ├── JwtAuthenticationFilter.java
-│   ├── JwtTokenProvider.java
-│   └── SecurityConfig.java
 ├── service/            # Servicios con lógica de negocio
 └── KardexApplication.java  # Clase principal
 ```
